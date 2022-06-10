@@ -1,16 +1,23 @@
+<?php
+// it is used to fetch the file from other file
+// include "variable.php";
+require "variable.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <?php
-    $x = 50;
-    $y = 10;
-    echo "The sum of x and y is :". ($x + $y);
+    echo "The sum of x and y is :" . ($x + $y);
     ?>
 </body>
+
 </html>
