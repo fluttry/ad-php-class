@@ -1,24 +1,10 @@
 .container {
-  max-width: 960px !important;
-}
-
-@media (min-width: 576px) {
-  .container-sm,
-  .container {
-    max-width: 540px;
-  }
+  max-width: 960px;
 }
 
 .simple-header {
   max-width: 700px;
 }
-
-.card1 {
-margin:20px;
-padding: 20px;
-
-}
-
 
 h1, h2, h3, h4, h5, h6, p, .a, .navbar-brand, .btn {
   font-family: 'Source Sans Pro', sans-serif !important;
@@ -42,7 +28,7 @@ p {
   background-color: #ff6255 !important;
   border-radius: 3px;
   border-color: #ff6255 !important;
-  font-weight: 600 !important;
+  font-weight: 600 !important!;
 }
 
 .purple {

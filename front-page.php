@@ -9,8 +9,8 @@ include 'userdata.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $username; ?> Blog</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet">
 </head>
 
 <body>

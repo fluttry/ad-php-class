@@ -1,2 +1,2 @@
-# ad-php-class
-Amardeep php class
+# ml-phpclass
+Manish Lokbidhi php class practice
